@@ -2,7 +2,7 @@ pipeline {
     agent any
         environment{
             REPOSITORY_NAME = "Prometheus Server"
-            EC2_INSTANCE = "3.252.51.232"
+            EC2_INSTANCE = "52.213.107.240"
             AWS_REGION = credentials('AWS_REGION')
             AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
             AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
